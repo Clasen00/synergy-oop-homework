@@ -1,6 +1,6 @@
 Данный репозиторий - это набор лабораторных работы, которые относятся к различным урокам университета Синергия по предмету ЯП Python. 
 
-Файл 
+ Файл [oop-homework1.py](https://github.com/Clasen00/synergy-oop-homework/blob/main/lesson_16/oop-homework1.py) - это задание №1 "Касса" из урока 16: "классы и объекты".
 
 ## Описание
 ```txt
@@ -10,7 +10,7 @@ top_up(X) - пополнить на X
 count_1000() - выводит сколько целых тысяч осталось в кассе
 take_away(X) - забрать X из кассы, либо выкинуть ошибку, что не достаточно денег
 ```
-Файл [oop-homework2.py](https://github.com/Clasen00/synergy-oop-homework/blob/main/oop-homework2.py) это задание №2 "Черепашка".
+Файл [oop-homework2.py](https://github.com/Clasen00/synergy-oop-homework/blob/main/lesson_16/oop-homework2.py) это задание №2 "Черепашка".
 
 ## Описание
 ```txt
@@ -31,7 +31,17 @@ count_moves(x2, y2) - возвращает минимальное количес
 
 ```bash
 git clone https://github.com/Clasen00/synergy-oop-homework.git
-cd synergy-oop-homework
+cd synergy-oop-homework/lesson_16
 python oop-homework1.py
 python oop-homework2.py
+```
+
+Файл [Game.py](https://github.com/Clasen00/synergy-oop-homework/blob/main/lesson_23/Game.py) Содержит в себе код для игры из задания 23 "Проект создание Игры"
+
+## Запуск
+
+```bash
+git clone https://github.com/Clasen00/synergy-oop-homework.git
+cd synergy-oop-homework/lesson_23
+python Game.py
 ```
